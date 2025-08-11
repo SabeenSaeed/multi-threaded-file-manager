@@ -78,7 +78,7 @@ match = re.search(r"\d{4}-\d{7}", text)  # pattern: 4 digits, dash, 7 digits
 if match:
     print(match.group())  # 0300-1234567
 
-** Lambda functions**
+**Lambda functions**
 lambda f: f['extension'] in ['.txt', '.pdf', '.docx']
 Lambda: An anonymous function — a one-line, throwaway function without def.
 
@@ -94,7 +94,7 @@ Returns True or False.
 
 Advantage: We can store these tiny functions directly in dictionaries for quick mapping.
 
-** Regular expressions**
+**Regular expressions**
 re.search(r'(secret|confidential)', f['name'], re.IGNORECASE)
 re.search(pattern, string, flags): Looks for the first match of a regex pattern in a string.
 
